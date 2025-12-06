@@ -29,7 +29,6 @@ export const Navbar: FC = () => {
       <div className="navbar__container">
         <a href="#" className="navbar__logo" aria-label="Home">
           <Logo size={40} />
-          <span className="navbar__name">Mustafa Muhammad</span>
         </a>
 
         <div className={`navbar__menu ${mobileMenuOpen ? 'navbar__menu--open' : ''}`}>

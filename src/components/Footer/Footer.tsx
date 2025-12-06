@@ -14,7 +14,6 @@ export const Footer: FC<FooterProps> = ({ name, email }) => {
         <div className="footer__content">
           <div className="footer__logo-section">
             <Logo size={50} />
-            <div className="footer__tagline">{name}</div>
             <div className="footer__subtitle">Cybersecurity Professional</div>
           </div>
           
